@@ -47,7 +47,12 @@ header h1{
 	float: left;
 	color:#ff0000;
 	font-size: 34px;
-	margin-top:30px;
+	margin-top:25px;
+}
+header a{
+	text-decoration: none;
+	list-style-type: none;
+	color:#ff0000;
 }
 header h2{
 	position: relative;

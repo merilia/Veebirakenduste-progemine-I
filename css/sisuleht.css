@@ -8,18 +8,6 @@ body{
 	background-repeat:repeat;
 	background-image: url('../img/taust.png');
 }
-@font-face{
-	font-family: "Lato";
-	src:url(font/Lato.ttf);	
-}
-@font-face{
-	font-family: "OpenSans";
-	src:url(font/OpenSans.ttf);	
-}
-@font-face{
-	font-family: "Montserrat";
-	src:url(font/Montserrat.ttf);	
-}
 .container{
 	margin: 0 auto;
 	width:100%;
@@ -55,7 +43,12 @@ header h1{
 	float: left;
 	color:#ff0000;
 	font-size: 34px;
-	margin-top:30px;
+	margin-top:25px;
+}
+header a{
+	text-decoration: none;
+	list-style-type: none;
+	color:#ff0000;
 }
 header h2{
 	position: relative;
@@ -201,19 +194,40 @@ nav a:hover, .langcontainer a:hover{
 	text-align: center;
 }
 .page-content h1{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat Alternates', sans-serif;
 	color:#fff;
 	font-size: 34px;
-	font-weight: lighter;
+	font-weight: bold;
+	text-transform: uppercase;
 }
-.page-content h2{
+.page-content p, .page-content h3{
 	position: relative;
-	margin-top:20px;
-	margin-right:10px;
-	font-family: 'Lato', sans-serif;
+	width:620px;
+	margin-top:40px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'OpenSans', sans-serif;
 	color:#c2c2c2;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: lighter;
+	line-height: 1.5;
+	text-align: left;
+}
+.page-content h3{
+	margin-top: 0px;
+	font-size:16px;
+	color:#fff;
+	font-weight: bolder;
+}
+.page-content h4{
+	width:620px;
+	margin:0 auto;
+	padding-left:30px;
+	font-family: 'OpenSans', sans-serif;
+	color:#c2c2c2;
+	font-size: 14px;
+	font-weight: lighter;
+	text-align: left;
 }
 footer{
 	position: relative;
